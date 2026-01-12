@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">"
+    <title>Q3 Drill 1</title>
+
+    <style>
+        .container {
+            width: 650px;
+            height: 250px;
+            background-color: lightgreen;
+            border-radius: 20px;
+        }
+
+        #result1 {
+            background-color: antiquewhite;
+            width: 50px;
+            height: 30px;
+            text-align: center;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="fst-italic" id="one">Basic Calculator</h1>
+        <p>Click to reveal the answer of 6 added to 8.</p>
+        <p id="result1"></p>
+    </div>
+
+    <button type="button" onclick="document.getElementById('result1').innerHTML=answer;">Calculate</button>
+
+    <script>
+        var $one = "Basic Calculator";
+        var num1 = document.getElementById("result1").value;
+        var z = 6;
+        var a = 8;
+        var answer = z+a;
+    </script>
+
+    </div>
+</body>
+</html>
